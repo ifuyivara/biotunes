@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app-title {
+  text-align: center;
+  background-color: #F3F3F3;
+  border-bottom: 1px solid #DDD;
+  padding: 10px 0;
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+#audio-player {
+  text-align: center;
+  color: #CCC;
+  font-size: 18px;
+  cursor: default;
+  padding: 40px;
+  flex: 0 0 auto;
+  border-bottom: 1px solid #DDD;
+}
+
+#audio-files {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  overflow: scroll;
+}
+#audio-files li {
+  padding: 11px 15px 10px 15px;
+  border-bottom: 1px solid #EEE;
+  font-size: 18px;
+}
+#audio-files li:hover {
+  cursor: pointer;
+  background-color: #EEE;
+}
+#audio-files li.on {
+  cursor: default;
+  background-color: #3B99FC;
+  color: white;
+}
+
+
